@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Temporários
+output/chunks/*
+!output/chunks/.gitkeep
+output/index/*
+!output/index/.gitkeep
+uploads/*
+!uploads/.gitkeep
+
+# Secrets
+.env
+*.key
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+logs/
