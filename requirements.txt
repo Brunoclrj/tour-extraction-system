@@ -1,20 +1,8 @@
-# Core - Versões compatíveis
 crewai==0.86.0
 openai==1.54.0
-
-# Interface
 streamlit==1.29.0
 plotly==5.18.0
-
-# Data
 pandas==2.0.3
 openpyxl==3.1.5
-
-# Utils
 pyyaml==6.0.1
 python-dotenv==1.0.0
-
-# NÃO especificar crewai-tools - deixa CrewAI gerenciar
-# NÃO especificar sentence-transformers - não é essencial
-# NÃO especificar faiss - não é essencial
-# NÃO especificar docling - não é essencial
